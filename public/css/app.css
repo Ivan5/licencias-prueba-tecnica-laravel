@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+section.banner {
+    color: #fff;
+    postion: relative;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/577bf73b9f74567384fd351e/1474660143215-5N8IZZY4KNIY3U39YNJH/ke17ZwdGBToddI8pDm48kFm3yZ8E2gns05-M23bOqAV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0lCvyAd1-5UQFnp8aARaJsVNxHDGNp137OVZjtG1ZKi2g4ad-G4-PUiwCfz53REkhA/TAD-CASA-0084.jpg?format=2500w");
+    background-position: center right;
+    background-size: cover;
+    font-size: 40px;
+    font-weight: bold;
+}
+.button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    display: inline-block;
+    padding: 12px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.primary {
+    color: #fff;
+    background-color: blue;
+}
+
+.renovar {
+    background-color: rgb(16, 118, 150);
+    color: #fff;
+}
+
+.activar {
+    background-color: rgb(5, 67, 8);
+    color: #fff;
+}
+
+.desactivar {
+    background-color: rgb(133, 3, 3);
+    color: #fff;
+}
+.form {
+    background-color: #fff;
+    width: 80%;
+    /*max-width: 1600px;*/
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+    top: -50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.form h3 {
+    color: blue;
+}
+
+.form form {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-css {
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    color: #444;
+    line-height: 1.3;
+    padding: 0.4em 1.4em 0.3em 0.8em;
+    width: 250px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.03);
+    border-radius: 0.3em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+}
+.select-css {
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    color: #444;
+    line-height: 1.3;
+    padding: 0.4em 1.4em 0.3em 0.8em;
+    width: 250px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.03);
+    border-radius: 0.3em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E"),
+        linear-gradient(to bottom, #ffffff 0%, #f7f7f7 100%);
+    background-repeat: no-repeat, repeat;
+    background-position: right 0.7em top 50%, 0 0;
+    background-size: 0.65em auto, 100%;
+}
+.select-css::-ms-expand {
+    display: none;
+}
+.select-css:hover {
+    border-color: #888;
+}
+.select-css:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222;
+    outline: none;
+}
+.select-css option {
+    font-weight: normal;
+}
+
+.lista .container h2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+table.table {
+    border: 1px solid rgb(195, 214, 220);
+    padding: 5px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.table thead tr th,
+table.table tbody tr td {
+    padding: 15px;
+    text-align: center;
+}
+
+table.table thead tr {
+    border: 1px solid rgb(195, 214, 220);
+}
